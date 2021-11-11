@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13397996800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the userInfo Page",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_is_on_the_user_info_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:22:49.887Z",
+        "line": 6,
+        "name": "As a User I should be able to add a user and validate the user has been added to the table",
+        "description": "",
+        "id": "as-an-enggner-i-need-to-automate-so-i-can-show-my-awesome-automation-skills;as-a-user-i-should-be-able-to-add-a-user-and-validate-the-user-has-been-added-to-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97360100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on AddUser button then I am on the Add User page",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_click_on_add_user_button_and_uset_is_on_add_user_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I add new user with following details| novak | Mat | novakMat | 1234567 | novak@gmail.com | 7031234567 |",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click Company AAA",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_click_company_aaa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select Role as Sales Team",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_select_role_as_sales_team()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on Save button",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_click_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The added user displayed on the table",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.the_added_user_displayed_on_the_table()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3268874500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the userInfo Page",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_is_on_the_user_info_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:23:03.476Z",
+        "line": 14,
+        "name": "As a User I should be able to delete a User",
+        "description": "",
+        "id": "as-an-enggner-i-need-to-automate-so-i-can-show-my-awesome-automation-skills;as-a-user-i-should-be-able-to-delete-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46593000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the delete button",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_clicks_on_the_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63837200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a confirmation Dialog should appear with the text: \"Do you really want to delete the user?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Do you really want to delete the user?\"",
+                  "offset": 51
+                }
+              ],
+              "location": "step_definitions.AddDeleteUsersStepdef.a_confirmation_dialog_should_appear_with_the_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45173000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Ok button",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.user_clicks_on_ok_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52881900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should be deleted",
+            "match": {
+              "location": "step_definitions.AddDeleteUsersStepdef.the_user_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As an Enggner I need to automate So I can show my awesome automation skills",
+    "description": "",
+    "id": "as-an-enggner-i-need-to-automate-so-i-can-show-my-awesome-automation-skills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addUser_DeleteUser.feature",
+    "tags": []
+  }
+]
