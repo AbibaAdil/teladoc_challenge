@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+		plugin = {"html:target/cucumber-reports", "json:target/cucumber.json"},
 		features="./src/test/resources/features",
 		glue="step_definitions",
 		dryRun=false
